@@ -1,0 +1,22 @@
+.home {
+    width: 95%;
+    margin: 1rem auto;
+    background-color: rgb(29, 28, 28);
+    color: aliceblue;
+}
+
+.subtitle {
+    color: aliceblue;
+}
+
+@media(max-width: 450) {
+    .home {
+        width: 70%;
+    }
+}
+
+@media(max-width: 770) {
+    .home {
+        width: 90%;
+    }
+}
