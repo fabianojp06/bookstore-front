@@ -1,0 +1,20 @@
+.container {
+    height: 85%;
+    background-color: rgb(59, 59, 59);
+}
+
+.containernav {
+    background-color: rgb(59, 59, 59);
+    
+
+}
+
+.material-icons {
+    background-color: rgb(59, 59, 59);
+    color: rgb(10, 10, 10);
+
+}
+
+i {
+    padding-right: .6rem;
+}
