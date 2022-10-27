@@ -8,6 +8,10 @@
     margin-bottom: 3rem;
 }
 
+button {
+    margin-bottom: .7rem;
+}
+
 .title h1 {
     font-size: 2rem;
     color: aliceblue;
@@ -15,7 +19,25 @@
 }
 
 .table {
-    background-color: rgb(207, 211, 212);
+    background-color: rgb(28, 29, 29);
     width: 100%;
     color: aliceblue;
-  }
+}
+
+.livros {
+    color: rgb(24, 11, 202);
+    margin-left: .6rem;
+}
+
+.edit {
+    color: rgb(231, 210, 90);
+}
+
+.delete {
+    color: rgb(129, 16, 16);
+    margin-left: .5rem;
+}
+
+.mat-header {
+    width: 5rem;
+}
