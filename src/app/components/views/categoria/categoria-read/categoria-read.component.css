@@ -1,0 +1,20 @@
+.content {
+    width: 90%;
+    margin: 1.4rem auto auto auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title h1 {
+    font-size: 2rem;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.table {
+    background-color: rgb(48, 47, 47);
+    width: 100%;
+  }
