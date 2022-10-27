@@ -24,9 +24,25 @@ button {
     color: aliceblue;
 }
 
+.idTabela {
+    color: aliceblue;
+}
+
+.nomeTabela {
+    color: aliceblue;
+}
+
+.descricaoTabela {
+    color: aliceblue;
+}
+
 .livros {
     color: rgb(24, 11, 202);
     margin-left: .6rem;
+}
+
+.livrosTabela {
+    color: aliceblue;
 }
 
 .edit {
@@ -40,4 +56,9 @@ button {
 
 .mat-header {
     width: 5rem;
+    color: aliceblue;
+}
+
+td {
+    color: aliceblue;
 }
