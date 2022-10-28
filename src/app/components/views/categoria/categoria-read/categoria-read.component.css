@@ -10,6 +10,7 @@
 
 button {
     margin-bottom: .7rem;
+    color: aliceblue;
 }
 
 .title h1 {
@@ -19,7 +20,7 @@ button {
 }
 
 .table {
-    background-color: rgb(28, 29, 29);
+    background-color: rgb(61, 60, 60);    
     width: 100%;
     color: aliceblue;
 }

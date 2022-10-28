@@ -1,20 +1,30 @@
 .container {
-    height: 85%;
-    background-color: rgb(59, 59, 59);
-}
-
-.containernav {
-    background-color: rgb(59, 59, 59);
-    
-
-}
-
-.material-icons {
-    background-color: rgb(59, 59, 59);
-    color: rgb(10, 10, 10);
-
+    height: 85%;   
 }
 
 i {
     padding-right: .6rem;
+    color: aliceblue;
+}
+
+.side {
+    width: 12%;
+    background-color: rgb(80, 78, 78);
+    color: aliceblue;
+}
+
+mat-nav-list {
+    justify-content: center;
+}
+
+.nav {
+    width: 50%;
+}
+
+.contentNav {
+    background-color: rgb(61, 60, 60);    
+}
+
+.colorHome {
+    color: white; text-shadow: rgb(8, 8, 8) 0.1em 0.1em 0.2em
 }
