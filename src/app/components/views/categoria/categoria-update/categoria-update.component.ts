@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Categoria } from '../categoria.model';
 import { CategoriaService } from '../categoria.service';
 
@@ -16,7 +16,11 @@ export class CategoriaUpdateComponent implements OnInit {
     descricao: ''
   }
 
-  constructor(private service: CategoriaService, private route: ActivatedRoute) { }
+  constructor(
+    private service: CategoriaService, 
+    private route: ActivatedRoute,
+    private router: Router
+    ) { }
 
   ngOnInit(): void {
     this.categoria.id = this.route.snapshot.paramMap.get('id')!
@@ -28,6 +32,17 @@ export class CategoriaUpdateComponent implements OnInit {
       this.categoria.nome = reposta.nome;
       this.categoria.descricao = reposta.descricao;
     })
+  }
+
+  update(): void {
+    this.service.update(this.categoria).subscribe((resposta) =>{
+    this.router.navigate(['categorias'])
+    this.service.mensagem('Category updated successfully!')
+    })
+  }
+
+  cancel(): void {
+    this.router.navigate(['categorias'])
   }
 
 }
