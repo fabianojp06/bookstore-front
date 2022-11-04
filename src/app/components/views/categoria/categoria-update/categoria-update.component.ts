@@ -38,6 +38,8 @@ export class CategoriaUpdateComponent implements OnInit {
     this.service.update(this.categoria).subscribe((resposta) =>{
     this.router.navigate(['categorias'])
     this.service.mensagem('Category updated successfully!')
+    }, err => {
+      this.service.mensagem('Validate that all fields are filled in correctly!')
     })
   }
 
